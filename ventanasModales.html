@@ -1,0 +1,107 @@
+<!-- Modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="inicioSesion">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="" data-dismiss="modal" aria-label="">
+            <span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="msnInicio">Inicio de sesión</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" id="formu-inicio" >
+       <!---<form>--> 
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo:</label>
+              <div class="col-sm-10"> 
+              <input type="email" class="form-control" id="exampleInputEmail1"
+               aria-describedby="emailHelp" placeholder="Ingresa el email" requierd name="usuario">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="col-sm-2 control-label">Contraseña:</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="exampleInputPassword1"
+                placeholder="Contraseña" required name="contraseñaPass">
+              </div>
+            </div>  
+          <input type="hidden" name="tipoOperacion" value="inicioSesion">
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary"> Enviar </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </div>
+    </div>
+  </div> 
+
+  
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="registrarme">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="msnEstadoRegistro">Registrar mis datos</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" id="formu-registro">
+    
+
+        <div class="form-group">
+          <label for="exampleInputText">Nombre:</label>
+          <div class="col-sm-10"> 
+          <input type="text" class="form-control" id="exampleInputText"
+            placeholder="Ingresa el nombre" required name="NombreTXT">
+          </div>
+        </div>
+
+            <div class="form-group">
+              <label for="exampleInputText2">Apellidos:</label>
+              <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="exampleInputText2"
+                placeholder="Ingresa los apellidos" required name="ApellidoTXT">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputNumber">Teléfono:</label>
+              <div class="col-sm-10"> 
+              <input type="number" class="form-control" id="exampleInputNumber"
+                placeholder="Ingresa un número de téfono celular" required name="TelefNUM">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail">Correo:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="exampleInputEmail"
+                placeholder="Ingresa un correo eléctronico valido" required name="correoReg">
+              </div>
+            </div>
+            
+          
+            <div class = "form-group">
+              <label for="exampleInputPassword2" class="col-sm-2 control-label">Contraseña:</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="exampleInputPassword2"
+                placeholder="Contraseña" required name="ContPass">
+              </div>
+            </div>  
+            <input type="hidden" name="tipoOperacion" value="registrarUsuario">
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary"> Registrar </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </div>
+    </div>
+  </div> 

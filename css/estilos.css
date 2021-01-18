@@ -1,0 +1,24 @@
+header{
+    box-shadow: 0 5px 10px rgb(180, 174, 174);
+}
+/*
+El primer valor es el valor horizontal,
+el segundo es el vertical, tercero difuminación
+y cuarto el color
+valor + hacia arriba valor - hacía abajo
+*/
+
+
+.btns-inicio{
+    text-align: right;
+    padding-top: 15px;
+}
+
+.msnExito, .msnError{
+    font-weight: bold;
+    color: green;
+}
+.msnError{
+    color: red;
+}
+    
